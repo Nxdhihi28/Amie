@@ -129,5 +129,29 @@
     object-fit: cover;
 }
 
+/* Hover effect */
+.header-container div a:hover {
+    border: 2px solid #472f75;
+    color: #472f75;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Current page */
+.header-container div a.active {
+    border: 2px solid #472f75;
+    color: #472f75;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.experience-card:hover {
+    border: 2px solid #472f75;  /* frame */
+    box-shadow: 0 12px 15px rgba(0, 0, 0, 0.2);  /* deeper shadow */
+    transform: translateY(-5px); /* slight lift */
+    transition: all 0.3s ease;   /* smooth effect */
+  }
+
 
 
