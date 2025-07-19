@@ -139,7 +139,7 @@
 }
 
 /* Current page */
-.header-container div a.active {
+.hero div a.active {
     border: 2px solid #472f75;
     color: #472f75;
     padding: 5px;
